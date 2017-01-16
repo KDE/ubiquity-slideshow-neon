@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
 
-file(GLOB master_slides ubiquity-slideshow/slides/*.html)
-
 function(LANGUAGE_FROM_PO VAR pofile)
     get_filename_component(_lang ${pofile} DIRECTORY)
     get_filename_component(_lang ${_lang} NAME)
@@ -35,6 +33,7 @@ function(TRANSLATE_HTML pofile)
     add_custom_target(translated-html-${language} ALL DEPENDS ${translated_files})
 endfunction()
 
+file(GLOB master_slides ubiquity-slideshow/slides/*.html)
 file(GLOB_RECURSE pofiles po/*.po)
 foreach(pofile ${pofiles})
     translate_html(${pofile})
