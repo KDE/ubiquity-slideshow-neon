@@ -38,3 +38,5 @@ file(GLOB_RECURSE pofiles po/*.po)
 foreach(pofile ${pofiles})
     translate_html(${pofile})
 endforeach()
+
+install(DIRECTORY ubiquity-slideshow DESTINATION /usr/share)
