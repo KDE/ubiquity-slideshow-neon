@@ -1,0 +1,54 @@
+html, body
+{
+	margin:0;
+	padding:0;
+	font-family: "Noto Sans UI";
+	font-size: 1em;
+	color:#fcfcfc;
+	background-color: #EFF0F1;
+}
+
+#slideshow
+{
+	position:absolute;
+	
+	width: 100%;
+	height: 100%;
+	
+	overflow:hidden;
+}
+#slideshow > div {
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#debug-controls {
+	display:none;
+	position:absolute;
+	top:440px;
+	width:700px;
+	text-align:center;
+}
+#debug-controls input {
+	width:40px;
+}
+
+.image { 
+   position: relative; 
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.image h2 { 
+	margin: 16px;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}
