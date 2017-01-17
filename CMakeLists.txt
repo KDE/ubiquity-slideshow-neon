@@ -36,6 +36,7 @@ endfunction()
 
 function(TRANSLATE_HTML)
     file(GLOB master_slides ubiquity-slideshow/slides/*.html)
+    file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/l10n)
 
     add_custom_target(translated-html ALL)
     file(GLOB_RECURSE pofiles po/*.po)
