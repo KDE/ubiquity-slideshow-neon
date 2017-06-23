@@ -30,8 +30,10 @@ function(TRANSLATE_HTML_POFILE pofile)
         list(APPEND translated_files ${translated_file})
     endforeach()
 
-    add_custom_target(translated-html-${language} ALL DEPENDS ${translated_files})
-    add_dependencies(translated-html translated-html-${language})
+    # Sanitize ca@valencia style languages to be usable as targets names.
+    string(REPLACE "@" "-" safe_language ${language})
+    add_custom_target(translated-html-${safe_language} ALL DEPENDS ${translated_files})
+    add_dependencies(translated-html translated-html-${safe_language})
 endfunction()
 
 function(TRANSLATE_HTML)
