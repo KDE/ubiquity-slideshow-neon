@@ -75,7 +75,7 @@ function slideshowReady() {
 		timeout:45000,
 		speed:500,
 		nowrap:false,
-		autopause:true,
+		autopause:false,
 		manualTrump:false,
 	};
 	
