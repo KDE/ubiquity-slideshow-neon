@@ -1,5 +1,17 @@
 cmake_minimum_required(VERSION 3.0)
 
+find_package(ECM 5.0)
+
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_PATH})
+
+include(KDEInstallDirs)
+include(KDECMakeSettings)
+include(KDECompilerSettings NO_POLICY_SCOPE)
+include(FeatureSummary)
+
+find_package(Qt5 5.12 REQUIRED COMPONENTS Core Qml)
+find_package(KF5 5.57 REQUIRED COMPONENTS I18n Declarative)
+
 function(LANGUAGE_FROM_PO VAR pofile)
     get_filename_component(_lang ${pofile} DIRECTORY)
     get_filename_component(_lang ${_lang} NAME)
@@ -55,3 +67,14 @@ add_custom_target(directory.jsonp ALL
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/directory.jsonp DESTINATION /usr/share/ubiquity-slideshow/slides/)
 
 install(DIRECTORY ubiquity-slideshow DESTINATION /usr/share)
+
+add_subdirectory(calamares-qml-plugin)
+
+if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
+    ki18n_install(po)
+endif()
+
+file(GLOB QML_SRCS ubiquity-slideshow/slides/*.qml)
+add_custom_target(QmlFiles ALL echo SOURCES ${QML_SRCS})
+
+feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)

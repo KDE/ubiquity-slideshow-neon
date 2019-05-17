@@ -1,0 +1,2 @@
+module org.kde.neon.calamares.slideshow.context
+plugin contextplugin
