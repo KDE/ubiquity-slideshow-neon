@@ -57,6 +57,8 @@ Slide {
         // Cropping would be nicer IMO. but it severely messes with my size
         // calculation
         fillMode: Image.PreserveAspectFit
+        smooth: true
+        clip: true
     }
 
     Item {
