@@ -27,8 +27,6 @@ function(TRANSLATE_HTML_POFILE pofile)
 
     foreach(master_slide ${master_slides})
         get_filename_component(htmlname ${master_slide} NAME)
-        message(${master_slide})
-        message(${htmlname})
         set(translated_file ${CMAKE_CURRENT_BINARY_DIR}/l10n/${language}/${htmlname})
         add_custom_command(
             OUTPUT ${translated_file}
