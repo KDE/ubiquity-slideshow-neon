@@ -40,7 +40,6 @@ public:
     void initializeEngine(QQmlEngine *engine, const char *uri) override
     {
         QQmlExtensionPlugin::initializeEngine(engine, uri);
-        QQmlContext *context = engine->rootContext();
 
         KDeclarative::KDeclarative d;
         d.setTranslationDomain("ubiquity-slideshow-neon");
