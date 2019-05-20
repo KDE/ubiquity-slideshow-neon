@@ -1,3 +1,5 @@
+project(ubiqity-slideshow-neon)
+
 cmake_minimum_required(VERSION 3.0)
 
 find_package(ECM 5.0)
