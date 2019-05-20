@@ -42,6 +42,8 @@ public:
         QQmlExtensionPlugin::initializeEngine(engine, uri);
 
         KDeclarative::KDeclarative d;
+        // The domain is unrelated to cala here. We recycle the same
+        // translations from ubiquity for calamares.
         d.setTranslationDomain("ubiquity-slideshow-neon");
         d.setDeclarativeEngine(engine);
         d.setupEngine(engine);
