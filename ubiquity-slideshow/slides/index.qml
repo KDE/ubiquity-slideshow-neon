@@ -28,6 +28,8 @@ Presentation
     property string colorPaperWhite: "#fcfcfc"
     property string colorCharcoalGrey: "#31363b"
 
+    function onActivate() { timer.running = true }
+
     Rectangle {
         SystemPalette { id: systemPalette }
 
@@ -47,6 +49,4 @@ Presentation
     UbiquitySlide { name: 'neon'; textColor: colorPaperWhite }
     UbiquitySlide { name: 'plasma'; textColor: colorCharcoalGrey }
     UbiquitySlide { name: 'secure'; textColor: colorPaperWhite }
-
-    Component.onCompleted: timer.running = true
 }
