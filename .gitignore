@@ -1,5 +1,4 @@
 build/
-po/
 debian/
 obj-*/
 calamares/
