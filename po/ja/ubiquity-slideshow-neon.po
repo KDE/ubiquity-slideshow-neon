@@ -1,0 +1,36 @@
+# Ryuichi Yamada <ryuichi_ya220@outlook.jp>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-neon\n"
+"POT-Creation-Date: 2017-01-20 01:21+0100\n"
+"PO-Revision-Date: 2022-08-09 22:42+0900\n"
+"Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 22.04.1\n"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/kde.html:3
+msgid "One Blue Marble - a community of creators around the globe"
+msgstr "One Blue Marble - 世界中のクリエイターが集まるコミュニティ"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/neon.html:3
+msgid "KDE neon - the latest and greatest from the KDE community"
+msgstr "KDE Neon - 最新かつ最高の KDE ソフトウェア"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/plasma.html:3
+msgid "Plasma Desktop, simple by default and powerful when needed"
+msgstr "Plasma Desktop, デフォルトではシンプル、必要なときパワフル"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/secure.html:3
+msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
+msgstr "セキュリティ、プライバシーと自由を KDE, Plasama と Neon で"

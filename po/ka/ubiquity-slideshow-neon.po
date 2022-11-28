@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubiquity-slideshow-neon\n"
+"POT-Creation-Date: 2017-01-20 01:21+0100\n"
+"PO-Revision-Date: 2022-05-15 05:04+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/kde.html:3
+msgid "One Blue Marble - a community of creators around the globe"
+msgstr "One Blue Marble - ხელოვანების საზოგადოება მთელ დედამიწაზე"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/neon.html:3
+msgid "KDE neon - the latest and greatest from the KDE community"
+msgstr "KDE neon - უახლესი და უდიდესი, KDE-ის საზოგადოებისგან"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/plasma.html:3
+msgid "Plasma Desktop, simple by default and powerful when needed"
+msgstr "Plasma Desktop, ნაგულისხმებად მარტივი და ძალიან ძლიერი, როცა საჭიროა"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/secure.html:3
+msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
+msgstr ""
+"უსაფრთხოება, კონფიდენციალობა და ავტონომია KDE-სთან, Plasma-სთან და Neon-თან "
+"ერთად"

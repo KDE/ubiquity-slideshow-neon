@@ -1,0 +1,38 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-01-20 01:21+0100\n"
+"PO-Revision-Date: 2021-12-22 20:30+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/kde.html:3
+msgid "One Blue Marble - a community of creators around the globe"
+msgstr "قطعة رخام زرقاء - مجتمع من المبدعين حول العالم"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/neon.html:3
+msgid "KDE neon - the latest and greatest from the KDE community"
+msgstr "كدي نيون - الأحدث والأفضل من مجتمع كدي"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/plasma.html:3
+msgid "Plasma Desktop, simple by default and powerful when needed"
+msgstr "سطح مكتب بلازما، بسيط في الظاهر قوي عند الحاجة"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/secure.html:3
+msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
+msgstr "الأمان والخصوصية والاستقلالية مع كدي وبلازما ونيون"

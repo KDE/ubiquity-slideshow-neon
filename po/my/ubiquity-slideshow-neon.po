@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-01-20 01:21+0100\n"
+"PO-Revision-Date: 2021-09-14 01:41+0630\n"
+"Last-Translator: \n"
+"Language-Team: Burmese <kde-i18n-doc@kde.org>\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/kde.html:3
+msgid "One Blue Marble - a community of creators around the globe"
+msgstr "One Blue Marble - ကမ္ဘာတစ်ဝန်းက ဖန်တီးသူများ၏ အသိုင်းအဝိုင်းတစ်ခု"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/neon.html:3
+msgid "KDE neon - the latest and greatest from the KDE community"
+msgstr "ကေဒီအီး နီယွန် - ကေဒီအီးအသိုင်းအဝိုင်းမှ နောက်ဆုံးပေါ်အကောင်းဆုံး"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/plasma.html:3
+msgid "Plasma Desktop, simple by default and powerful when needed"
+msgstr "ပလက်စမာ ဒက်စတော့ပ်သည် မူလသတ်မှတ်ချက်အရ ရိုးရှင်းသည်။ သို့သော် လိုအပ်ပါက အလွန်စွမ်းရည်ပြည့်ဝလှပေသည်"
+
+#. type: Content of: <div><h2>
+#: ubiquity-slideshow/slides/secure.html:3
+msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
+msgstr ""
+"လုံခြုံရေး၊ ကိုယ်ပိုင်အချက်အလက်များကာကွယ်ခွင့် နှင့် ကိုယ်ပိုင်ထိန်းချုပ်ခွင့်ကို ကေဒီအီး၏ ပလက်စမာနှင့် နီယွန်တို့ဖြင့် ရယူပါ"
