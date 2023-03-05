@@ -25,7 +25,7 @@ msgstr "قطعة رخام زرقاء - مجتمع من المبدعين حول �
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/neon.html:3
 msgid "KDE neon - the latest and greatest from the KDE community"
-msgstr "كدي نيون - الأحدث والأفضل من مجتمع كدي"
+msgstr "كِيدِي نيون - الأحدث والأفضل من مجتمع كِيدِي"
 
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/plasma.html:3
@@ -35,4 +35,4 @@ msgstr "سطح مكتب بلازما، بسيط في الظاهر قوي عند 
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/secure.html:3
 msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
-msgstr "الأمان والخصوصية والاستقلالية مع كدي وبلازما ونيون"
+msgstr "الأمان والخصوصية والاستقلالية مع كِيدِي وبلازما ونيون"
