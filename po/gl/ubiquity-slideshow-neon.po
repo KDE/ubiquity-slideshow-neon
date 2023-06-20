@@ -35,4 +35,5 @@ msgstr ""
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/secure.html:3
 msgid "Security, privacy and autonomy with KDE, Plasma and Neon"
-msgstr "Seguranza, protección da intimidade e autonomía con KDE, Plasma e Neon"
+msgstr ""
+"Seguridade, protección da intimidade e autonomía con KDE, Plasma e Neon"
