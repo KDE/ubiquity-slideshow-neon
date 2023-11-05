@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
-"POT-Creation-Date: 2017-01-20 01:21+0100\n"
+"POT-Creation-Date: 2023-11-05 12:39+0000\n"
 "PO-Revision-Date: 2020-01-15 16:20+0200\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
