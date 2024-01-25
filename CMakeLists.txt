@@ -2,7 +2,10 @@ project(ubiqity-slideshow-neon)
 
 cmake_minimum_required(VERSION 3.0)
 
-find_package(ECM 5.0)
+set (QT_MIN_VERSION "6.5.0")
+set (KF_MIN_VERSION "5.240.0")
+
+find_package(ECM ${KF_MIN_VERSION} CONFIG REQUIRED)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_PATH})
 
@@ -11,8 +14,8 @@ include(KDECMakeSettings)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 include(FeatureSummary)
 
-find_package(Qt5 5.12 REQUIRED COMPONENTS Core Qml)
-find_package(KF5 5.57 REQUIRED COMPONENTS I18n Declarative)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Qml)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS I18n Declarative)
 
 function(LANGUAGE_FROM_PO VAR pofile)
     get_filename_component(_lang ${pofile} DIRECTORY)
