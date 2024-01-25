@@ -20,7 +20,7 @@
 
 import QtQuick 2.0
 import QtQuick.Controls 2.5
-import QtQuick.XmlListModel 2.0
+import QtQml.XmlListModel
 
 import calamares.slideshow 1.0
 import org.kde.kirigami 2.4 as Kirigami
@@ -41,8 +41,8 @@ Slide {
         query: "/div"
         source: slide.name + ".html"
 
-        XmlRole { name: "title"; query: "h2/string()" }
-        XmlRole { name: "image"; query: "img/@src/string()" }
+        XmlListModelRole { name: "title"; elementName: "h2" }
+        XmlListModelRole { name: "image"; elementName: "img; attributeName: "src" }
 
         onCountChanged:{
             var item = get(0)

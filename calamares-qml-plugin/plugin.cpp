@@ -20,10 +20,10 @@
 
 #include <QDebug>
 #include <QLocale>
+#include <QQmlContext>
 #include <QQmlEngine>
 #include <QQmlExtensionPlugin>
 
-#include <KDeclarative/KDeclarative>
 #include <KLocalizedString>
 #include <KLocalizedContext>
 
@@ -40,14 +40,10 @@ public:
     void initializeEngine(QQmlEngine *engine, const char *uri) override
     {
         QQmlExtensionPlugin::initializeEngine(engine, uri);
+        auto l10nContext = new KLocalizedContext(engine);
+        l10nContext->setTranslationDomain(QStringLiteral("ubiquity-slideshow-neon"));
+        engine->rootContext()->setContextObject(l10nContext);
 
-        KDeclarative::KDeclarative d;
-        // The domain is unrelated to cala here. We recycle the same
-        // translations from ubiquity for calamares.
-        d.setTranslationDomain("ubiquity-slideshow-neon");
-        d.setDeclarativeEngine(engine);
-        d.setupEngine(engine);
-        d.setupContext();
 
         // Cala only sets the QLocale default but otherwise leaves
         // everything unchanged. That means ki18n will not pick the
@@ -55,10 +51,11 @@ public:
         // was. To solve this we'll build the language list manually.
         QStringList ls;
         for (auto &lang : QLocale().uiLanguages()) {
-            ls << lang.replace('-', '_');
+            // FIXME compile error of "error: use of deleted function ‘QChar::QChar(char)’"
+            //ls << lang.replace('-', '_');
         }
         for (auto &lang : QLocale::system().uiLanguages()) {
-            ls << lang.replace('-', '_');
+            //ls << lang.replace('-', '_');
         }
         KLocalizedString::setLanguages(ls);
     }
