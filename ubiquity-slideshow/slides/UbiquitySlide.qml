@@ -42,7 +42,7 @@ Slide {
         source: slide.name + ".html"
 
         XmlListModelRole { name: "title"; elementName: "h2" }
-        XmlListModelRole { name: "image"; elementName: "img; attributeName: "src" }
+        XmlListModelRole { name: "image"; elementName: "img"; attributeName: "src" }
 
         onCountChanged:{
             var item = get(0)
