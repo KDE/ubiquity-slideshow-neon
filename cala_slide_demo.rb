@@ -30,5 +30,5 @@ else
   end
 end
 
-p ['qmlscene', '-I', "#{Dir.pwd}/calamares/src/qml", '-geometry', '830x430', 'ubiquity-slideshow/slides/index.qml']
-exec('qmlscene', '-I', "#{Dir.pwd}/calamares/src/qml", '-geometry', '830x430', 'ubiquity-slideshow/slides/index.qml')
+p ['qml', '-I', "#{Dir.pwd}/calamares/src/qml/calamares-qt6", '--qwindowgeometry', '830x430', 'ubiquity-slideshow/slides/index.qml']
+exec('qml', '-I', "#{Dir.pwd}/calamares/src/qml/calamares-qt6", '--qwindowgeometry', '830x430', 'ubiquity-slideshow/slides/index.qml')
