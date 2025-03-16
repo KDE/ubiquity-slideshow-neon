@@ -2,7 +2,7 @@ project(ubiqity-slideshow-neon)
 
 cmake_minimum_required(VERSION 3.0)
 
-set (QT_MIN_VERSION "6.5.0")
+set (QT_MIN_VERSION "6.7.0")
 set (KF_MIN_VERSION "5.240.0")
 
 find_package(ECM ${KF_MIN_VERSION} CONFIG REQUIRED)

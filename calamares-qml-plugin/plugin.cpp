@@ -44,19 +44,13 @@ public:
         l10nContext->setTranslationDomain(QStringLiteral("ubiquity-slideshow-neon"));
         engine->rootContext()->setContextObject(l10nContext);
 
-
         // Cala only sets the QLocale default but otherwise leaves
         // everything unchanged. That means ki18n will not pick the
         // correct reference as the "system" locale is still what it
         // was. To solve this we'll build the language list manually.
         QStringList ls;
-        for (auto &lang : QLocale().uiLanguages()) {
-            // FIXME compile error of "error: use of deleted function ‘QChar::QChar(char)’"
-            //ls << lang.replace('-', '_');
-        }
-        for (auto &lang : QLocale::system().uiLanguages()) {
-            //ls << lang.replace('-', '_');
-        }
+        ls = QLocale().uiLanguages(QLocale::TagSeparator::Underscore);
+        ls = QLocale::system().uiLanguages(QLocale::TagSeparator::Underscore);
         KLocalizedString::setLanguages(ls);
     }
 
