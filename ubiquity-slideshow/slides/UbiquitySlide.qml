@@ -18,7 +18,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-import QtQuick 2.0
+import QtQuick 2.5
 import QtQuick.Controls 2.5
 import QtQml.XmlListModel
 
@@ -38,6 +38,7 @@ Slide {
     // the fact that xhtml and html are just about the same.
     XmlListModel {
         id: xmlModel
+        property bool active: false
         query: "/div"
         source: slide.name + ".html"
 
@@ -45,6 +46,17 @@ Slide {
         XmlListModelRole { name: "image"; elementName: "img"; attributeName: "src" }
 
         onCountChanged:{
+            xmlModel.reload()
+            // xmllistmodel lost it's getter in qt6, so re-implement it as a function
+            function get(i) {
+                var o = {}
+                for (var j = 0; j < roles.length; ++j)
+                {
+                    o[roles[j].name] = data(index(i,0), Qt.UserRole + j)
+                }
+                return o
+            }
+            //console.log("o is ", get(0))
             var item = get(0)
             background.source = item.image
             header.text = i18n(item.title)
