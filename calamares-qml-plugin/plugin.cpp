@@ -48,9 +48,12 @@ public:
         // everything unchanged. That means ki18n will not pick the
         // correct reference as the "system" locale is still what it
         // was. To solve this we'll build the language list manually.
-        QStringList ls;
-        ls = QLocale().uiLanguages(QLocale::TagSeparator::Underscore);
-        ls = QLocale::system().uiLanguages(QLocale::TagSeparator::Underscore);
+        for (auto &lang : QLocale().uiLanguages()) {
+            ls << lang.replace(QLatin1Char('-'), QLatin1Char('_'));
+        }
+        for (auto &lang : QLocale::system().uiLanguages()) {
+            ls << lang.replace(QLatin1Char('-'), QLatin1Char('_'));
+        QDebug() << "language is" << ls;
         KLocalizedString::setLanguages(ls);
     }
 
