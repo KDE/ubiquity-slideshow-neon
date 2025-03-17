@@ -42,24 +42,14 @@ Slide {
         query: "/div"
         source: slide.name + ".html"
 
-        XmlListModelRole { name: "title"; elementName: "h2" }
-        XmlListModelRole { name: "image"; elementName: "img"; attributeName: "src" }
+        XmlListModelRole { id: titleRole; name: "title"; elementName: "h2" }
+        XmlListModelRole { id: imageRole; name: "image"; elementName: "img"; attributeName: "src" }
 
-        onCountChanged:{
-            xmlModel.reload()
-            // xmllistmodel lost it's getter in qt6, so re-implement it as a function
-            function get(i) {
-                var o = {}
-                for (var j = 0; j < roles.length; ++j)
-                {
-                    o[roles[j].name] = data(index(i,0), Qt.UserRole + j)
-                }
-                return o
-            }
-            //console.log("o is ", get(0))
-            var item = get(0)
-            background.source = item.image
-            header.text = i18n(item.title)
+        onCountChanged: {
+            const title = data(index(0, 0), Qt.UserRole + roles.indexOf(titleRole))
+            const image = data(index(0, 0), Qt.UserRole + roles.indexOf(imageRole))
+            background.source = image
+            header.text = i18n(title)
         }
     }
 
