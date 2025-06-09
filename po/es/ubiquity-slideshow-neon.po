@@ -1,12 +1,14 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Spanish translations for ubiquity-slideshow-neon.po package.
+# Copyright (C) 2017-2025 This file is copyright:
+# This file is distributed under the same license as the ubiquity-slideshow-neon package.
 #
-# Víctor Rodrigo Córdoba <vrcordoba@gmail.com>, 2017.
+# SPDX-FileCopyrightText: 2017, 2025 Víctor Rodrigo Córdoba <vrcordoba@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: ubiquity-slideshow-neon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:39+0000\n"
-"PO-Revision-Date: 2017-02-05 13:10+0100\n"
+"PO-Revision-Date: 2025-06-09 02:46+0100\n"
 "Last-Translator: Víctor Rodrigo Córdoba <vrcordoba@gmail.com>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
