@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-11-05 12:39+0000\n"
+"POT-Creation-Date: 2025-11-17 09:01+0000\n"
 "PO-Revision-Date: 2021-08-11 15:06+0300\n"
 "Last-Translator: Дронова Юлия <juliette.tux@gmail.com>\n"
 "Language-Team: RU\n"

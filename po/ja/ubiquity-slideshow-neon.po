@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ubiquity-slideshow-neon\n"
-"POT-Creation-Date: 2023-11-05 12:39+0000\n"
+"POT-Creation-Date: 2025-11-17 09:01+0000\n"
 "PO-Revision-Date: 2022-08-09 22:42+0900\n"
 "Last-Translator: Ryuichi Yamada <ryuichi_ya220@outlook.jp>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"

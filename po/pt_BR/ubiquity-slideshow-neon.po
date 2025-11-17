@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-11-05 12:39+0000\n"
+"POT-Creation-Date: 2025-11-17 09:01+0000\n"
 "PO-Revision-Date: 2019-02-05 15:26-0200\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Polish <kde-i18n-pt_BR@kde.org>\n"
