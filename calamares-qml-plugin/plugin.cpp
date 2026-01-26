@@ -53,8 +53,9 @@ public:
         }
         for (auto &lang : QLocale::system().uiLanguages()) {
             ls << lang.replace(QLatin1Char('-'), QLatin1Char('_'));
-        QDebug() << "language is" << ls;
+        qDebug() << "language is" << ls;
         KLocalizedString::setLanguages(ls);
+        }
     }
 
     void registerTypes(const char *uri) override
