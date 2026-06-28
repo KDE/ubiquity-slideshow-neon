@@ -23,12 +23,12 @@ msgstr ""
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/kde.html:3
 msgid "One Blue Marble - a community of creators around the globe"
-msgstr "Un Marble blau - una comunitat de creadors per tot el globus"
+msgstr "Un Marble blau – una comunitat de creadors per tot el globus"
 
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/neon.html:3
 msgid "KDE neon - the latest and greatest from the KDE community"
-msgstr "KDE neon - el més recent i el més gran de la comunitat KDE"
+msgstr "KDE neon – el més recent i el més gran de la comunitat KDE"
 
 #. type: Content of: <div><h2>
 #: ubiquity-slideshow/slides/plasma.html:3
